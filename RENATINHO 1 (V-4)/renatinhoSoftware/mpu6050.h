@@ -136,15 +136,15 @@ void mpu_reset() {
 }
 
 /* Retorna o angulo de giro em Z */
-float getAngleX() {
+int getAngleX() {
   return roll;
 }
 
-float getAngleY() {
+int getAngleY() {
   return pitch;
 }
 
-float getAngleZ() {
+int getAngleZ() {
   return yaw;
 }
 
